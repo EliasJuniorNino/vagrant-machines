@@ -1,2 +1,2 @@
 # Start
-'vagrant up'
+```vagrant up```
