@@ -1,0 +1,2 @@
+# Start
+'vagrant up'
