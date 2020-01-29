@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    container_name: express-api
+    restart: always
+    build: ./
+    command: ["npm", "run", "dev"]
+    ports:
+      - "3333:3333"
+    volumes:
+      - .:/app
